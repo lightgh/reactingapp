@@ -12,16 +12,6 @@ function Square(props) {
     );
 }
 
-// history = [
-//     {
-//         squares:[
-//             null, null, null, 
-//             null, null, null, 
-//             null, null, null
-//         ]
-//     },
-// ]
-
 class Board extends React.Component {
 
     renderSquare(i) {
